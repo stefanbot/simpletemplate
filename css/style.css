@@ -1,0 +1,255 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ /*  Fonts */
+a, h1 {
+	font-family: 'Smythe';
+}
+p, h2 {
+	font-family: 'Lato';
+}
+
+
+body{
+	width: 100%;
+	height: 1400px;
+	background: url("../images/back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.mainwrap {
+	background-color: #d9c9ba;
+	margin-top: 2% !important;
+	width: 60%;
+	height: 1400px;
+	margin: 0 auto;
+	border: 3px solid #301f0b;
+}
+li {
+	list-style: none;
+	display: inline;
+	padding-right: 30px;
+}
+nav a {
+	color: #411804;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+}
+nav a:hover {
+	border-bottom: 2px solid #5e2002;
+	font-weight: bolder;
+	color: #5e2002;
+}
+ul {
+	display: inline-block;
+	margin-top: 4%;
+	padding: 20px;
+}
+.banner {
+	margin-top: 30px;
+	margin-left: 20px;
+	float: left;
+	background: url("../images/banner1.png");
+	background-size: 100%;
+	width: 180;
+	height: 80;
+	clear: both;
+}
+.midsection {
+	width: 100%;
+	height: 300px;
+	margin-left: 1.5%;
+	margin-top: 6%;
+}
+nav {
+	height: 130px;
+	border-bottom: 3px solid #301f0b;
+}
+.banner2 {
+	margin: 20px auto;
+	background: url("../images/banner2.jpg");
+	background-repeat: no-repeat;
+	width: 920px;
+	height: 409px;
+}
+.simple {
+	color: #301f0b;
+	margin-left: 21%;
+	margin-top: 7%;
+	padding: 10px;
+	position: absolute;
+	font-family: 'Lato';
+	font-size: 45px;
+	background: rgb(0,0,0,0.4);
+}
+.midsection h1 {
+	font-family: 'Lato';
+	font-size: 25px;
+	margin-left: 35%;
+	margin-bottom: 1.5%;
+}
+.box {
+	display: inline-block;
+	padding: 20px;
+}
+.boxes {
+	margin-left: 0 auto !important;
+	margin-right: 35px !important;
+	width: 900px !important;
+	height: 180px;
+	margin-right: 200px;
+	margin-bottom: 25px;
+	border: 3px solid #301f0b;
+}
+.downsection {
+	min-height: 450px;
+	margin-left: 25px !important;
+	margin: 0 auto;
+}
+.downsection h1 {
+	color: #301f0b;
+	font-size: 30px;
+}
+form {
+	width: 400px;
+	display: inline-block;
+}
+input[type=text], input[type=email] {
+	font-family: 'Lato';
+	width: 350px;
+	margin-top: 5px;
+	padding: 7px;
+	background-color: #bb9a78;
+	font-weight: bold;
+}
+textarea {
+	font-family: 'Lato';
+	margin-top: 5px;
+	font-weight: bold;
+	padding: 7px;
+	background-color: #bb9a78;
+	width: 350px;
+	height: 200px;
+	resize: none;
+
+}
+input[type=submit] {
+	font-family: 'Lato';
+	margin-top: 5px;
+	border-style: none;
+	background-color: #7c6751;
+	padding: 10px;
+	width: 70px;
+	font-weight: bold;
+}
+input[type=submit]:hover {
+	background-color: #71400f;
+}
+.contactbox {
+	float: right;
+}
+.contactme {
+	margin-right: 200px;
+	width: 300px;
+}
+.contactinfo {
+	padding: 5px;
+	padding-left: 20px;
+	margin-top: 5px;
+	width: 275px;
+	height: auto;
+	border: 3px solid #301f0b;
+}
+.contactinfo p {
+	margin-bottom: 10px;
+}
+.icon1 {
+	margin-right: 8px;
+	margin-top: 15px;
+	display: inline-block;
+	background: url("../images/Youtube.png");
+	width: 48px;
+	height: 48px;
+}
+.icon2 {
+	margin-right: 8px;
+	margin-top: 15px;
+	display: inline-block;
+	background: url("../images/Pinterest.png");
+	width: 48px;
+	height: 48px;
+}
+.icon3 {
+	margin-right: 8px;
+	margin-top: 15px;
+	display: inline-block;
+	background: url("../images/Google-plus.png");
+	width: 48px;
+	height: 48px;
+}
+.icon4 {
+	margin-right: 8px;
+	margin-top: 15px;
+	display: inline-block;
+	background: url("../images/Bebo.png");
+	width: 48px;
+	height: 48px;
+}
+.footer {
+	width: 99.9%;
+	background-color: #ae8d67;
+	height: 30px;
+	margin: 0 auto;
+	padding: 0;
+}
+.footer h2 {
+	padding: 6px;
+	text-align: center;
+	margin-left: 2%;
+}
