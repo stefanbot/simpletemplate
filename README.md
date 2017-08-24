@@ -1,0 +1,1 @@
+# simpletemplateb.github.io
