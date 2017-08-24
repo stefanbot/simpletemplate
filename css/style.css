@@ -57,7 +57,7 @@ p, h2 {
 
 body{
 	width: 100%;
-	height: 1400px;
+	height: auto;
 	background: url("../images/back.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -66,7 +66,7 @@ body{
 	background-color: #d9c9ba;
 	margin-top: 2% !important;
 	width: 60%;
-	height: 1400px;
+	height: auto;
 	margin: 0 auto;
 	border: 3px solid #301f0b;
 }
@@ -104,29 +104,22 @@ ul {
 .midsection {
 	width: 100%;
 	height: 300px;
-	margin-left: 1.5%;
 	margin-top: 6%;
+}
+@media (max-width: 768px) {
+	.midsection {
+		height: 20%;
+	}
 }
 nav {
 	height: 130px;
 	border-bottom: 3px solid #301f0b;
 }
-.banner2 {
-	margin: 20px auto;
-	background: url("../images/banner2.jpg");
-	background-repeat: no-repeat;
-	width: 920px;
-	height: 409px;
-}
-.simple {
-	color: #301f0b;
-	margin-left: 21%;
-	margin-top: 7%;
-	padding: 10px;
-	position: absolute;
-	font-family: 'Lato';
-	font-size: 45px;
-	background: rgb(0,0,0,0.4);
+@media (max-width: 768px) {
+	.simple {
+		font-size: 20px;
+		margin-left: 15%;
+	}
 }
 .midsection h1 {
 	font-family: 'Lato';
@@ -135,22 +128,43 @@ nav {
 	margin-bottom: 1.5%;
 }
 .box {
+	margin-left: 4%;
 	display: inline-block;
 	padding: 20px;
 }
+@media (max-width: 768px ) {
+	.box {
+		display: none;
+	}
+}
+
 .boxes {
-	margin-left: 0 auto !important;
-	margin-right: 35px !important;
-	width: 900px !important;
+	margin: 0 auto !important;
+	width: 90% !important;
 	height: 180px;
 	margin-right: 200px;
 	margin-bottom: 25px;
 	border: 3px solid #301f0b;
 }
+@media (max-width: 768px) {
+	.boxes {
+		border: none;
+	}
+}
+@media (max-width: 768px) {
+	.midsection h1 {
+		display: none;
+	}
+}
 .downsection {
 	min-height: 450px;
 	margin-left: 25px !important;
 	margin: 0 auto;
+}
+@media (max-width: 768px) {
+	.downsection {
+		height: 10%;
+	}
 }
 .downsection h1 {
 	color: #301f0b;
@@ -159,6 +173,11 @@ nav {
 form {
 	width: 400px;
 	display: inline-block;
+}
+@media (max-width: 768px) {
+	form {
+		display: none;
+	}
 }
 input[type=text], input[type=email] {
 	font-family: 'Lato';
@@ -194,9 +213,21 @@ input[type=submit]:hover {
 .contactbox {
 	float: right;
 }
+@media (max-width: 768px) {
+	.contactbox  {
+		float: none;
+
+	}
+}
 .contactme {
 	margin-right: 200px;
 	width: 300px;
+}
+@media (max-width: 768px) {
+	.contactbox h1 {
+		margin-right: 0;
+		font-size: 20px;
+	}
 }
 .contactinfo {
 	padding: 5px;
@@ -205,6 +236,12 @@ input[type=submit]:hover {
 	width: 275px;
 	height: auto;
 	border: 3px solid #301f0b;
+}
+@media (max-width: 768px) {
+	.contactinfo {
+		font-size: 12px;
+		border: none;
+	}
 }
 .contactinfo p {
 	margin-bottom: 10px;
@@ -217,6 +254,12 @@ input[type=submit]:hover {
 	width: 48px;
 	height: 48px;
 }
+@media (max-width: 768px) {
+	.icon1 {
+		display: none;
+	}
+}
+
 .icon2 {
 	margin-right: 8px;
 	margin-top: 15px;
@@ -224,6 +267,11 @@ input[type=submit]:hover {
 	background: url("../images/Pinterest.png");
 	width: 48px;
 	height: 48px;
+}
+@media (max-width: 768px) {
+	.icon2 {
+		display: none;
+	}
 }
 .icon3 {
 	margin-right: 8px;
@@ -233,6 +281,11 @@ input[type=submit]:hover {
 	width: 48px;
 	height: 48px;
 }
+@media (max-width: 768px) {
+	.icon3 {
+		display: none;
+	}
+}
 .icon4 {
 	margin-right: 8px;
 	margin-top: 15px;
@@ -240,6 +293,11 @@ input[type=submit]:hover {
 	background: url("../images/Bebo.png");
 	width: 48px;
 	height: 48px;
+}
+@media (max-width: 768px) {
+	.icon4 {
+		display: none;
+	}
 }
 .footer {
 	width: 99.9%;
@@ -252,4 +310,12 @@ input[type=submit]:hover {
 	padding: 6px;
 	text-align: center;
 	margin-left: 2%;
+}
+.responsive {
+	display: none;
+}
+@media (max-width: 768px) {
+	.responsive {
+		display: inline;
+	}
 }
